@@ -1003,10 +1003,13 @@ void ASR_screensaver() {
 //    x += 8 - scroll_pos;
 //    graphics.drawVLine(x, y, 3);
       
-      //everything else in the function is my  stuff
-      graphics.drawVLine(31, -4, 600); //this is my crap
-      graphics.drawVLine(63, -4, 400); //this is my crap
-      graphics.drawVLine(95, -4, 400); //this is my crap
+      //everything else in the function is my (JMK) stuff
+      // JMK added
+      graphics.drawVLine(31, -4, 600); //this is my stuff
+      graphics.drawVLine(63, -4, 400); //this is my stuff
+      graphics.drawVLine(95, -4, 400); //this is my stuff
+    
+
   }
 }
 
